@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include ../partials/header.ejs %>
+
+  <%- include ../partials/main_nav.ejs %>
+
+    <body>
+      <% if (firstname !=null && firstname !='' ){ %>
+        <p>
+                <div class="alert alert-dismissible alert-success">
+                    <button type="button" class="close"
+                        data-dismiss="alert">&times;</button>
+                    <strong>Thanks! <%= firstname %> <%= lastname %> for connecting</strong>
+                    <p> </p>
+                    Message: "<%= message %>" is sent as Feedback with Email ID: "<%=email %>" and Contact Number: <%= contact %> .
+                </div>
+        </p>
+        <% } %>
+     
+            <%- include ../partials/main.ejs %>
+
+    </body>
+    <div data-role="footer" data-position="fixed">
+      <h1>Your Footer</h1>
+    </div>
+    <%- include ../partials/bottom_nav.ejs %>
+
+      <%- include ../partials/footer.ejs %>
+
+</html>

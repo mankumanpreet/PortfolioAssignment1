@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include ../partials/header.ejs %>
+
+    <%- include ../partials/main_nav.ejs %>
+
+        <body>
+            <div class="container">
+                <div class="bs-docs-section">
+                <div class="row">
+                <div class="col-lg-9">
+                    <form method="POST">
+                        <fieldset>
+                            <legend class="text-center">Contact Me</legend>
+                            <div class="form-group">
+                                <label for="exampleInputName">First Name</label>
+                                <input type="text" class="form-control" id="fname"
+                                    aria-describedby="nameHelp" name="fname" placeholder="Enter your First Name">
+                               
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputlName">Last Name</label>
+                                <input type="text" class="form-control" id="lname"
+                                    aria-describedby="nameHelp" name="lname" placeholder="Enter your Last Name">
+                               
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputContact">Contact</label>
+                                <input type="text" class="form-control" id="contact"
+                                    placeholder="Enter your Contact Number" name="contact" maxlength="10" minlength="10">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="email"
+                                    aria-describedby="emailHelp" name="email" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleTextarea">Your Message</label>
+                                <textarea class="form-control" name="msg" id="msg" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" value="Submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <%- include ../partials/aside_about.ejs %>
+            </div>
+        </div>
+    </div>
+        </body>
+
+
+        <%- include ../partials/bottom_nav.ejs %>
+
+            <%- include ../partials/footer.ejs %>
+                </body>
+
+</html>
