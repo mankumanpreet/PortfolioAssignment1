@@ -54,8 +54,6 @@ router.get('/contact', function(req, res, next) {
 
 /* POST Contact Us page. */
 router.post('/contact', function(req, res, next) {
-  console.log(req.body);
-  console.log(req.body.fname);
   firstname = req.body.fname;
   lastname = req.body.lname;
   contact = req.body.contact;
