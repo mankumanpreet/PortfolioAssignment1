@@ -153,7 +153,7 @@ header.header_section {position: relative;z-index: 999;}
 
 /*****Bg-Section***/
 .bg_section .bg_left_inner {     width: 100%;     float: left; }
-.bg_section .bg_left_inner h1 {     width: 100%;     float: left;   margin:0; text-decoration:none; font-style: normal;     font-weight: 600;     font-size: 64px;     line-height: 80px;     letter-spacing: 0.08em;     text-transform: uppercase;     color: #363F48; padding:0 0 73px 0; }
+.bg_section .bg_left_inner h1 {     width: 100%;     float: left;   margin:0; text-decoration:none; font-style: normal;     font-weight: 600;     font-size: 35px;  text-transform: uppercase;     color: #363F48; padding:0 0 73px 0; }
 .bg_section .bg_left_inner a {     width: auto;     float: left;     background: #9b7b55;     color: #fff;     padding: 23px 54px;     font-size: 26px;     text-transform: uppercase;     font-weight: 500;     font-style: normal;     text-align: center;     letter-spacing: 0.08em;     font-family: 'Roboto', sans-serif;   text-decoration: none;}
 .bg_section .bg_right_inner {     width: 100%;     float: left; position:relative;}
 .bg_section .bg_right_inner img {     width: 100%;  float: left; }
