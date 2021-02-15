@@ -159,7 +159,7 @@ header.header_section {position: relative;z-index: 999;}
 .bg_section .bg_right_inner img {     width: 100%;  float: left; }
 .bg_section .bg_right {padding: 32px 0 0 18px; float:right;}
 .bg_left .bg_left_inner {     background: #fff; padding: 50px 125px;     margin: 0; text-decoration:none;}
-.main_bg { position:relative; z-index:99;     margin: -32px 0 0 0;}
+.main_bg { position:relative; z-index:99;     margin: -32px 0 -100px 0;}
 .bg_section .bg_left {       padding: 0;     position: relative;     width: 650px;     z-index: 99;     margin:0px;     float: left;}
 .bg_section .bg_left_inner a:hover {     background: #895f2e; }
 
@@ -511,4 +511,31 @@ form legend{
     font-weight: bold;
     text-align: center;
     
+}
+
+.graph_section .graph-sub{
+    padding: 100px 85px 0 40px;
+    color: #9B7B55;
+    font-size: 16px;
+}
+.graph_section .graph-sub h3{
+    text-align: center;
+    color: #ffffff;
+    /* margin-top: 20px; */
+    font-size: 34px;
+    
+}
+.graph_section .right_bottom_content ul{
+    color:#fff;
+    font-size: 16px;
+}
+
+.bs-component .card-body{
+    background-color: #efefef !important;
+}
+footer .fixed-bottom{
+    position: unset;
+}
+.bs-component .card-body .btn-primary{
+    background-color: #000000 !important;
 }
